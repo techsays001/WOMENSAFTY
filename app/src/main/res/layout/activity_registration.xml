@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    >
+    <ScrollView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/r_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Create account"
+                    android:textColor="#0DE5FF"
+                    android:textSize="20sp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/wimg"
+                    android:layout_width="140dp"
+                    android:layout_height="152dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/cr"
+                    android:src="@drawable/profile"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.572" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Enter your full name"
+                    android:textColor="#9E000000" />
+
+                <EditText
+                    android:id="@+id/wname"
+                    android:layout_width="343dp"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bt"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="Name"
+                    android:inputType="textPersonName"
+                    android:padding="12dp"
+                    android:textColor="@color/green"
+                    android:textColorHint="@color/green"
+
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/textView5"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Enter Email address"
+                    android:textColor="#9E000000" />
+
+                <EditText
+                    android:id="@+id/wemailid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bt"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="Email id"
+                    android:inputType="textEmailAddress"
+                    android:padding="12dp"
+                    android:textColor="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/textView4"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="(DOB)"
+                    android:textColor="#9E000000" />
+
+                <EditText
+                    android:id="@+id/wdob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bt"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="(DD/MM/YY)"
+                    android:inputType="textMultiLine"
+                    android:padding="12dp"
+                    android:textColor="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/textView7"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Enter Parent Phone Number"
+                    android:textColor="#9E000000" />
+
+                <EditText
+                    android:id="@+id/wparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bt"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="Enter Parent Phone Number"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:padding="12dp"
+                    android:textColor="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Enter your address"
+                    android:textColor="#9E000000" />
+
+                <EditText
+
+                    android:id="@+id/waddress"
+                    android:layout_width="349dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bt"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="Doubel Tap to find the Curent Location"
+                    android:inputType="textMultiLine"
+                    android:padding="12dp"
+                    android:textColor="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/enterpass"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Enter a password"
+                    android:textColor="#9E000000" />
+
+                <EditText
+                    android:id="@+id/pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bt"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="Enter password"
+                    android:inputType="textPassword"
+                    android:padding="12dp"
+                    android:textColor="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textSize="14sp" />
+
+                <CheckBox
+                    android:id="@+id/chpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="CheckBox" />
+
+                <TextView
+                    android:id="@+id/textView8"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Repeat Password"
+                    android:textColor="#9E000000" />
+
+                <EditText
+                    android:id="@+id/cpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bt"
+                    android:ems="10"
+                    android:fontFamily="@font/roboto_light"
+                    android:hint="Repeat your password"
+                    android:inputType="textPassword"
+                    android:padding="12dp"
+                    android:textColor="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textSize="14sp" />
+
+
+                <CheckBox
+                    android:id="@+id/ccpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="CheckBox" />
+
+                <Button
+                    android:id="@+id/ebt"
+                    android:layout_width="232dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/btn"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Register now"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item
+
+        android:id="@+id/techersde"
+        android:title="Class Detailes"
+
+
+        />
+    <item
+        android:id="@+id/classtime"
+        android:title="Techers Detailes" />
+    <item
+
+       android:id="@+id/newdance"
+        android:title="New dance Registrayion" />
+    <item
+
+        android:id="@+id/onlinesupport"
+        android:title="Online Support" />
+<!--    <item-->
+
+<!--        android:id="@+id/event"-->
+<!--        android:title="Events" />-->
+    <item
+
+        android:id="@+id/logout2"
+        android:title="logout" />
+
+</menu>
